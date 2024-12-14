@@ -1,0 +1,6 @@
+- hosts: all
+  tasks:
+    - name: Wizall-BF Prod Deployment Service Setting up
+      template:
+         src: "/root/Ansible/Wizall_Prod/BF/Wizall_SN_Var.j2"
+         dest: "/root/Ansible/Wizall_Prod/BF/var.yml"
