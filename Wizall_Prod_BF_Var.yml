@@ -1,4 +1,4 @@
-- hosts: all
+- hosts: localhost
   tasks:
     - name: Wizall-BF Prod Deployment Service Setting up
       template:
